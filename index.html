@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 1</title>
+    <style>
+        p{
+            /* aplicar colores al texto */
+            color:rgb(233, 250, 0);
+            
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Titulo</h1>
@@ -18,16 +26,24 @@
     <a href="paginas/contactos.html">
         <img src="img/contacto.png" alt="no cargo" width="50px">
     </a>
-
+    <p class="pDiferente">pagina</p>
+    <div class="Div">
+        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque architecto maxime nihil cumque ducimus quo, nobis porro inventore libero? Repellat quasi, facere in suscipit doloremque ut pariatur deleniti autem?</p>
+    </div>
+    <div class="Div2">
+        <p style="color: white;"> Div2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque architecto maxime nihil cumque ducimus quo, nobis porro inventore libero? Repellat quasi, facere in suscipit doloremque ut pariatur deleniti autem?</p>
+    </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est facere temporibus omnis dolor autem non, dignissimos beatae commodi, fuga sed voluptate natus veritatis tempore iusto ipsam reiciendis at incidunt.</p>
     <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui non tempore deserunt, quidem fugiat ratione, dolorum excepturi repudiandae id sequi iure accusamus, ad cupiditate omnis impedit ullam facere repellat.</p>
+    <p class="JQ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui non tempore deserunt, quidem fugiat ratione, dolorum excepturi repudiandae id sequi iure accusamus, ad cupiditate omnis impedit ullam facere repellat.</p>
     <!--negrita, cursiva <i> sin peso semantico -->
     <b>Negro</b>
     <br>
     <!--negrita, cursiva <em> con peso semaantico -->
-    <strong>Jhoan David Quiñones Lobo</strong>
+    <strong class="nSemantica">Jhoan David Quiñones Lobo</strong>
     <br>
+    <br>
+    <i class="RGB">cursiva</i>
     <br>
     <br>
     <small>este texto es pequeño</small>
@@ -105,7 +121,7 @@
     <br>
     <br>
     <!--formulario-->
-    <div style="width: 100%; background-color: rgb(100, 95, 95);">
+    <div style="width: 100%; background-color: rgb(238, 223, 93);">
         <form action="">
             <label for="">Formulario Estudiante Nuevo </label>
             <br>
@@ -155,9 +171,12 @@
             <input type="submit" value="Enviar">
             <br>
             <br>
-            <audio src="/audio/audio1.mp3" controls></audio>
+            <audio src="audio/audio1.mp3" controls></audio>
             <h3>Video</h3>
-            <video src="/videos/video1.mp4" style="width: 100%;"controls></video>
+            <video src="videos/video1.mp4" style="width: 100%;"controls></video>
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1V_xRb0x9aw?si=8L6VQoO3tNueAf0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </form>
     </div>
 </body>

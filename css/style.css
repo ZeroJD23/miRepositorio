@@ -1,0 +1,27 @@
+/*Esto es un comentario de una o varias lineas*/
+body{
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.pDiferente{
+    color: blue;
+}
+.nSemantica{
+    color: rgb(83, 243, 243);
+}
+.JQ{
+    color: blueviolet;
+}
+.RGB{
+    color: rgb(233, 101, 6);
+}
+.Div{
+    width: 50%;
+    background-color: red;
+}
+.Div2{
+    width: 50%;
+    background-color: hsl(177, 89%, 70%);
+    margin: auto;
+    padding: 20px;
+}
